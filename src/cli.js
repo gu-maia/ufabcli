@@ -1,4 +1,5 @@
-const arg = require('arg');
+const arg = require('arg')
+const ru = require('./commands/ru.js')
 
 const args = arg({
     
@@ -14,7 +15,19 @@ const args = arg({
    '-d': '--dinner'
 })
 
+
+
 export function cli(){
-//TODO
+
+
+//That needs refactoring... 
+
+if(args['--lunch'])
+ru.scrapeMeal(1)
+if(args["--dinner"])
+ru.scrapeMeal(2)
+
+
+
 }
 
