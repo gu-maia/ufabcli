@@ -1,0 +1,26 @@
+{
+  "name": "@sazukegu/ufabcli",
+  "version": "1.0.0",
+  "description": "A command line app for UFABC students.",
+  "main": "src/index.js",
+  "bin": {
+    "@sazukegu/ufabcli": "bin/ufabcli",
+    "ufabcli": "bin/ufabcli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "ufabcli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.2",
+    "esm": "^3.2.25"
+  }
+}
