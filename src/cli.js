@@ -20,20 +20,22 @@ const args = arg({
 
 
 export function cli(){
-
-
 //That needs refactoring... 
 
-if(args['--lunch'])
+if(args['--lunch']){
 ru.scrapeMeal(1)
+}
 
-if(args["--dinner"])
+if(args["--dinner"]){
 ru.scrapeMeal(2)
+}
 
-if(arg['--dessert'])
+if(arg['--dessert']){
 ru.scrapeMeal(4)
+}
 
-if(args["--help"])
+
+if(args["--help"]){
 console.log(chalk.bold.rgb(10, 100, 200)(`Usage: ufabcli <command>`))
 console.log(chalk.bold.rgb(255, 255, 255)(`Available commands: \n
 -h --help     for list of available commands
@@ -43,6 +45,6 @@ console.log(chalk.bold.rgb(255, 255, 255)(`Available commands: \n
 -v --version  for current version`
 ));
 
-
+}
 }
 

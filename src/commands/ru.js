@@ -3,20 +3,7 @@ const URL_MENU = 'http://proap.ufabc.edu.br/nutricao-e-restaurantes-universitari
 const date = new Date();
 
 //The html from PROGRAD increases the tableRow by 2, that means that mon = 2, tue = 4 and so on.. therefore:
-const currentDay = 2* date.getDay();
-
-const daysOfWeek = {
-
-    1: 'mon',
-    2: 'tue',
-    3: 'wed',
-    4: 'thu',
-    5: 'fri',
-    6: 'sat',
-
-}
-
-
+const currentDay = 2 * date.getDay();
 
 module.exports = {
 
