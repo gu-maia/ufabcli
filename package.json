@@ -1,6 +1,6 @@
 {
   "name": "ufabcli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A command line app for UFABC students.",
   "main": "src/index.js",
   "bin": {
@@ -20,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "arg": "^4.1.2",
+    "chalk": "^3.0.0",
     "esm": "^3.2.25",
     "puppeteer": "^2.1.0"
   }
