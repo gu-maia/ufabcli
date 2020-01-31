@@ -34,6 +34,7 @@ if(arg['--dessert']){
 ru.scrapeMeal(4)
 }
 
+console.log(args)
 
 if(args["--help"]){
 console.log(chalk.bold.rgb(10, 100, 200)(`Usage: ufabcli <command>`))
