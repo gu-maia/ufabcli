@@ -1,10 +1,9 @@
 {
-  "name": "@sazukegu/ufabcli",
-  "version": "1.0.0",
+  "name": "ufabcli",
+  "version": "1.0.3",
   "description": "A command line app for UFABC students.",
   "main": "src/index.js",
   "bin": {
-    "@sazukegu/ufabcli": "bin/ufabcli",
     "ufabcli": "bin/ufabcli"
   },
   "publishConfig": {
