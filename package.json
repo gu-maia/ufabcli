@@ -1,6 +1,6 @@
 {
   "name": "ufabcli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A command line app for UFABC students.",
   "main": "src/index.js",
   "bin": {
